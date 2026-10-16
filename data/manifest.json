@@ -1,0 +1,19 @@
+{
+  "source_file": "Crashes_sorted.csv",
+  "source_sha256": "13eb835d2bf3c0edb3c998834c9043586952f94b2fb5e6c6785c68a64b7b43d5",
+  "snapshot_file": "crashes_2024_2025.csv.gz",
+  "snapshot_sha256": "29d1442e775cbb4869cba4fe33932237d835c15a2530e5fb102fc6660bf6a17f",
+  "rows": 81261,
+  "transformation": "24-column projection only; all original rows, values, and row order retained; deterministic gzip.",
+  "geography": "Los Angeles County",
+  "date_min": "2024-01-01",
+  "date_max": "2025-12-31",
+  "download_date": "Not recorded in original project",
+  "analysis_audit_date": "2026-10-15",
+  "dashboard": {
+    "url": "https://public.tableau.com/app/profile/kyubin.im/viz/Book1_17766647170630/Sheet1",
+    "workbook_sha256": "c1746cd7cbccaf0e93b4fcb4ccdf41bca1e7285093f6e8f4cf566b2c15e8eaab",
+    "retrieved_date": "2026-10-15",
+    "modified": false
+  }
+}

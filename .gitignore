@@ -1,0 +1,20 @@
+.venv/
+outputs/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+
+# Data files are kept local and not published
+*.csv
+*.csv.gz
+*.tsv
+*.parquet
+*.xlsx
+*.xls
+*.hyper
+*.twbx
+*.zip

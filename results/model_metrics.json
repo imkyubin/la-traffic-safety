@@ -1,0 +1,58 @@
+{
+  "source": "Copy of Time Series Modeling.ipynb, cell 27 (zero-based)",
+  "purpose": "Retrospective classification of recorded crash severity; not prospective deployment forecasting",
+  "model_rows": 81182,
+  "train_rows": 64945,
+  "test_rows": 16237,
+  "train_start": "2024-01-01 00:01:00",
+  "train_end": "2025-08-04 17:50:00",
+  "test_start": "2025-08-04 18:00:00",
+  "test_end": "2025-12-31 22:30:00",
+  "train_test_timestamp_overlap": false,
+  "threshold": 0.5,
+  "roc_auc": 0.6270812167093514,
+  "pr_auc_trapezoidal": 0.15610324993068614,
+  "test_prevalence": 0.1069163022725873,
+  "majority_class_accuracy_reference": 0.8930836977274127,
+  "confusion_matrix_labels": [
+    0,
+    1
+  ],
+  "confusion_matrix": [
+    [
+      11787,
+      2714
+    ],
+    [
+      1182,
+      554
+    ]
+  ],
+  "classification_report": {
+    "0": {
+      "precision": 0.9088595882489012,
+      "recall": 0.8128404937590511,
+      "f1-score": 0.8581725518747725,
+      "support": 14501.0
+    },
+    "1": {
+      "precision": 0.16952264381884946,
+      "recall": 0.3191244239631336,
+      "f1-score": 0.2214228617106315,
+      "support": 1736.0
+    },
+    "accuracy": 0.760054197203917,
+    "macro avg": {
+      "precision": 0.5391911160338754,
+      "recall": 0.5659824588610923,
+      "f1-score": 0.539797706792702,
+      "support": 16237.0
+    },
+    "weighted avg": {
+      "precision": 0.8298124160169268,
+      "recall": 0.760054197203917,
+      "f1-score": 0.7900936295292068,
+      "support": 16237.0
+    }
+  }
+}

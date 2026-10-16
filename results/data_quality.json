@@ -1,0 +1,25 @@
+{
+  "input_sha256": "29d1442e775cbb4869cba4fe33932237d835c15a2530e5fb102fc6660bf6a17f",
+  "rows": 81261,
+  "unique_crashes": 81261,
+  "date_min": "2024-01-01",
+  "date_max": "2025-12-31",
+  "severe_crashes": 8774,
+  "severe_share": 0.1079730744145408,
+  "invalid_time_rows": 65,
+  "missing_or_invalid_coordinates": 1334,
+  "weekday_mismatches": 0,
+  "year_counts": {
+    "2024": 42525,
+    "2025": 38736
+  },
+  "severity_counts": {
+    "1": 1136,
+    "2": 7638,
+    "3": 28184,
+    "4": 44303
+  },
+  "temporal_rows": 81196,
+  "model_rows": 81182,
+  "tableau_export_rows": 79869
+}
