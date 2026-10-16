@@ -59,8 +59,6 @@ python run.py
 
 Generated results and the Tableau CSV go to `outputs/`. The reviewed figures and metrics are in `results/`. Open `analysis.ipynb` in VS Code or Jupyter using the same environment to follow each step. Checks: `python -m unittest discover -s tests -v`.
 
-## Team and source
-
-**Christopher Hong, Kyubin Im, Douglas Shisbey, and Michael Vu** contributed jointly across the project.
+## Source
 
 Data: California Highway Patrol SWITRS via **Transportation Injury Mapping System (TIMS), Safe Transportation Research and Education Center, University of California, Berkeley**. [Source and terms](https://tims.berkeley.edu/about.php#terms) · [Snapshot provenance](data/manifest.json). Source data and basemap credits retain their original terms; no blanket reuse license is assigned here.
